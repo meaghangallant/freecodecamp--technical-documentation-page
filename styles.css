@@ -7,6 +7,15 @@ font-family: 'Lora', serif;
   font-family: 'Karla', sans-serif;
 }
 
+*, *::before, *::after { 
+  box-sizing: border-box;
+}
+
+body {
+  width: 90%;
+  margin: auto;
+}
+
 header,
 h1,
 h2,
@@ -24,9 +33,21 @@ h1 {
   NAV MUST BE ALIGNED LEFT OF THE PAGE! 
 */
 
+nav {
+  background-color: white;
+  border: solid 1px black;
+  position: sticky;
+  top: 0;
+  z-index: 2;
+}
+
 nav a {
   text-decoration: none;
   text-transform: uppercase;
   letter-spacing: .1em;
   margin-right: 2em;
+}
+
+main section {
+  margin-bottom: 3em;
 }
