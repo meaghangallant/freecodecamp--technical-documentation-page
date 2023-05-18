@@ -1,0 +1,32 @@
+/* 
+font-family: 'Karla', sans-serif;
+font-family: 'Lora', serif;
+*/
+
+* {
+  font-family: 'Karla', sans-serif;
+}
+
+header,
+h1,
+h2,
+h3 {
+  font-family: 'Lora', serif;
+  font-weight: 400;
+}
+
+h1 {
+  font-size: 2em;
+
+}
+
+/*
+  NAV MUST BE ALIGNED LEFT OF THE PAGE! 
+*/
+
+nav a {
+  text-decoration: none;
+  text-transform: uppercase;
+  letter-spacing: .1em;
+  margin-right: 2em;
+}
