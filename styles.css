@@ -26,8 +26,18 @@ h3 {
 
 h1 {
   font-size: 2em;
-
 }
+
+/*
+h2 {
+  background-color: white;
+  border: solid 1px white;
+  height: 30px;
+  position: sticky;
+  top: 70px;
+  z-index:10;
+}
+*/
 
 /*
   NAV MUST BE ALIGNED LEFT OF THE PAGE! 
@@ -35,10 +45,11 @@ h1 {
 
 nav {
   background-color: white;
-  border: solid 1px black;
+  border: solid 1px white;
+  height: 50px;
   position: sticky;
   top: 0;
-  z-index: 2;
+  z-index: 20;
 }
 
 nav a {
@@ -51,3 +62,27 @@ nav a {
 main section {
   margin-bottom: 3em;
 }
+
+/*
+  =============================
+  Desktop Styles: 769px and greater
+  =============================
+*/ 
+
+@media only screen and (min-width:769px){}
+
+/*
+  =============================
+  Tablet Styles: 481px and greater
+  =============================
+*/ 
+
+@media only screen and (min-width: 481px) {}
+
+/*
+  =============================
+  Mobile Styles: 0px to 480px
+  =============================
+*/ 
+
+@media only screen and (max-width: 480px) {}
