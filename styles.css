@@ -29,15 +29,17 @@ h1 {
 }
 
 /*
+
 h2 {
   background-color: white;
   border: solid 1px white;
   height: 30px;
   position: sticky;
-  top: 70px;
+  top: 100px;
   z-index:10;
 }
 */
+
 
 /*
   NAV MUST BE ALIGNED LEFT OF THE PAGE! 
@@ -46,10 +48,10 @@ h2 {
 nav {
   background-color: white;
   border: solid 1px white;
-  height: 50px;
+  height: 100px;
   position: sticky;
   top: 0;
-  z-index: 20;
+  z-index: 50;
 }
 
 nav a {
@@ -61,6 +63,14 @@ nav a {
 
 main section {
   margin-bottom: 3em;
+}
+
+pre {
+  background-color: gainsboro;
+}
+
+code {
+  font-family: monospace;
 }
 
 /*
